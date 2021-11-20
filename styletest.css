@@ -1,0 +1,165 @@
+/* -------------- CSS for menu --------------------- */
+
+.menu-item {
+    padding: 10px;
+    list-style-type: none;
+    background-color: azure;
+    border: 2px solid black;
+}
+
+.left-item {
+    float: left;
+}
+
+.right-item {
+    float: left;
+}
+
+#menu {
+    position: fixed;
+    border: 5px solid #73AD21;
+}
+/* --------------------------------------------- */
+
+/* CSS for banner */
+#banner {
+    position: relative;
+    background-image: url("https://www.evngenco1.vn/userfile/User/tcdl/images/images2312964_20200908_092915-20200908145658131.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    clear: both;
+}
+
+.content {
+    color: white;
+    position: absolute;
+    left: 20px;
+    margin: 0;
+}
+
+.content-title { 
+    top: 170px;
+}
+
+.content-text {
+    top: 220px;
+}
+
+
+/* CSS for images */
+#location1 {
+    padding: 20px 2% 30px;
+    background-color: rgba(228, 222, 222, 0.89);
+}
+
+#location2 {
+    padding: 20px 2% 30px;
+    background-color: rgba(223, 241, 245, 0.89);
+}
+
+#location3 {
+    padding: 20px 2% 30px;
+    background-color: rgba(248, 222, 193, 0.89);
+}
+
+#location4 {
+    padding: 20px 2% 30px;
+    background-color: rgba(241, 180, 241, 0.89);
+}
+
+#location5 {
+    padding: 20px 2% 30px;
+    background-color: rgba(169, 245, 179, 0.89);
+}
+.img-wrapper {
+    margin-left: 3%;
+}
+.column {
+    width: 31%;
+    float: left;
+    padding-right: 3%;
+    
+}
+.column1 {
+    height: 100%;
+}
+
+.first-img {
+    margin-bottom: 9%;
+}
+
+.column2 {
+    height: 100%;
+}
+
+.column3 > img {
+    width: 100%;
+    height: 100%;
+  
+}
+
+/* CSS for footer */
+.footer {
+    background-color: #d6d3d3;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.footer-item {
+    float: left;
+    width: 31%;
+    padding-right: 3%;
+}
+
+.footer-last-item {
+    padding-right: 0;
+}
+
+
+[class*="col-"] {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+* {
+    box-sizing: border-box;
+}
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+ @media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
