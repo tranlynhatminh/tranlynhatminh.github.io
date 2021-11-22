@@ -5,19 +5,13 @@
     list-style-type: none;
     background-color: azure;
     border: 2px solid black;
-}
-
-.left-item {
-    float: left;
-}
-
-.right-item {
     float: left;
 }
 
 #menu {
     position: fixed;
     border: 5px solid #73AD21;
+    width: 100%;
 }
 /* --------------------------------------------- */
 
